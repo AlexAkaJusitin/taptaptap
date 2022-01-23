@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  letter-spacing: 30px;
+  color: lime;
+  background-color: black;
+  overflow: hidden;
+  font-family: "Anton", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Luxurious Script", cursive;
+  font-family: "Passion One", cursive;
+  font-family: "Rock 3D", cursive;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.scorePanel {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.highscore {
+  font-size: 20rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  position: relative;
+  margin-bottom: 10vh;
+}
+.pressedKey {
+  font-size: 10rem;
+  margin: auto;
+  display: inline;
+  color: white;
+  text-transform: uppercase;
+}
